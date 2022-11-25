@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="landingStyles.css">
   <link rel="stylesheet" href="aboutStyles.css">
   <link rel="stylesheet" href="projectsStyles.css">
+  <script src="https://kit.fontawesome.com/6e726280be.js"></script>
   <title>FAC Application Website</title>
 </head>
 
 <body>
-  <!-- -->
   <header class="landing">
 
     <video class="video-bg" autoplay loop muted plays-inline src="vid3.mp4"></video>
@@ -21,8 +21,9 @@
       <img src="off.svg" alt="" class="light">
       <img src="on.svg" alt="" class="dark">
       <ul>
-        <li><a href="">About me</a></li>
-        <li><a href="">Projects</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
     <section class="intro">
@@ -32,14 +33,20 @@
     </section>
   </header>
 
-  <section class="about">
+  <section class="about" id="about">
     <h1>About me</h1>
     <h4>Here is a time line and overview of the projects i have been working on.</h4>
     <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sunt labore molestias dolorum voluptate, officia debitis molestiae nisi deleniti sint quia illo adipisci recusandae alias, aspernatur minima! Aliquam eius expedita, delectus excepturi nobis maiores itaque eaque, nemo adipisci voluptas est quae eveniet. Ab dolor rerum explicabo optio debitis consequatur neque, iusto minima sapiente reiciendis accusantium expedita impedit aut iure odit. Ullam doloribus fugit harum enim laboriosam, quo suscipit saepe et quae natus nisi labore, doloremque adipisci, inventore itaque officia placeat necessitatibus soluta! Explicabo atque ea iste asperiores necessitatibus delectus unde nulla, distinctio cum, quos mollitia aperiam aut nisi eligendi eum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sunt labore molestias dolorum voluptate,
+      officia debitis molestiae nisi deleniti sint quia illo adipisci recusandae alias, aspernatur minima! Aliquam eius
+      expedita, delectus excepturi nobis maiores itaque eaque, nemo adipisci voluptas est quae eveniet. Ab dolor rerum
+      explicabo optio debitis consequatur neque, iusto minima sapiente reiciendis accusantium expedita impedit aut iure
+      odit. Ullam doloribus fugit harum enim laboriosam, quo suscipit saepe et quae natus nisi labore, doloremque
+      adipisci, inventore itaque officia placeat necessitatibus soluta! Explicabo atque ea iste asperiores
+      necessitatibus delectus unde nulla, distinctio cum, quos mollitia aperiam aut nisi eligendi eum?</p>
   </section>
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <h1>Projects</h1>
     <h4>Here is a time line and overview of the projects i have been working on.</h4>
     <hr>
@@ -51,7 +58,7 @@
           atque officia alias tempora enim accusamus porro iste deserunt vitae, dicta quasi accusantium qui explicabo
           possimus harum.</p>
         <div>
-          <a  class="btnLink" href=""><button class="buttonS">Visit site</button></a>
+          <a class="btnLink" href=""><button class="buttonS">Visit site</button></a>
           <a href=""><button class="buttonS">Github repo</button></a>
         </div>
       </aside>
@@ -134,6 +141,20 @@
     <hr>
 
   </section>
+
+
+
+  <footer id="footer">
+
+
+    <a href="https://github.com/carlthedev"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/carlcrossprofile/"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.freecodecamp.org/carl-the-dev"><i class="fab fa-free-code-camp"></i></a>
+    <a href="mailto:carl.cross@yahoo.co.uk"><i class="far fa-envelope"></i></a>
+
+    <p>© 2022 Carl Cross All rights reserved</p>
+
+  </footer>
 
   <script src="app.js"></script>
 

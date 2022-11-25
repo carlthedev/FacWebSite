@@ -47,7 +47,7 @@ hr {
   border: 0;
   height: 3px;
   background: #333;
-  background-image: -webkit-linear-gradient(left, white, #333, white);
-  background-image: -moz-linear-gradient(left, white, #333, white);
-  background-image: -o-linear-gradient(left, white, #333, white);
+  background-image: -webkit-linear-gradient(left, white, rgb(19, 189, 28), white);
+  background-image: -moz-linear-gradient(left, white, rgb(19, 189, 28), white);
+  background-image: -o-linear-gradient(left, white, rgb(19, 189, 28), white);
 }
