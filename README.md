@@ -16,9 +16,9 @@ DOM updates in response to user interaction
 
 Wireframe:
 
-![](wirefr2.png)
-![](wirefr3.png)
-![](wirefr4.png)
+![](assets/wirefr2.png)
+![](assets/wirefr3.png)
+![](assets/wirefr4.png)
 
 ## Building 
 
