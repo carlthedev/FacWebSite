@@ -1,20 +1,32 @@
 .about {
-  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .about h1 {
   padding: 50px 0px 30px 0px;
   font-size: 3rem;
+  text-align: center;
 }
 
-.about h4 {
-  padding-bottom: 50px;
+.about h2 {
   font-size: 1.5rem;
+  text-align: center;
+}
+.about h3 {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about p {
-  padding-top: 50px;
-  width: 70%;
-  margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
