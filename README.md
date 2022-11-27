@@ -11,8 +11,8 @@ All code is written by you, No external libraries, Hosted on GitHub Pages, Seman
 Wireframe:
 
 ![](assets/wiFr1.png)
-![](assets/wiFr2.png)
 ![](assets/wiFr3.png)
+![](assets/wiFr2.png)
 
 ## Building 
 
